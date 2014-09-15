@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名称" />
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minLines="1" />
+
+    <TextView
+        android:id="@+id/urltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL" />
+
+    <EditText
+        android:id="@+id/urledit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minLines="1" />
+
+    <TextView
+        android:id="@+id/decriptiontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="备注" />
+
+    <EditText
+        android:id="@+id/decriptionedit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minLines="5" />
+
+    <Button
+        android:id="@+id/saveb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="收藏" />
+
+    <Button
+        android:id="@+id/showhis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="显示收藏" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:collapseColumns="3"
+        android:stretchColumns="1" >
+
+        <TableRow android:id="@+id/row1" >
+
+            <TextView
+                android:id="@+id/name"
+                android:text="名称" />
+
+            <EditText
+                android:id="@+id/edit1"
+                android:text="输入名字" />
+        </TableRow>
+
+        <TableRow android:id="@+id/row2" >
+
+            <TextView
+                android:id="@+id/gender"
+                android:text="性别" />
+
+            <RadioGroup android:id="@+id/readiogroup" >
+
+                <RadioButton
+                    android:id="@+id/nan"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@+id/nan"
+                    android:text="女" />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow android:id="@+id/row3" >
+
+            <TextView
+                android:id="@+id/interest"
+                android:text="兴趣爱好" />
+
+            <CheckBox
+                android:id="@+id/eat"
+                android:layout_width="wrap_content"
+                android:text="吃饭" />
+
+            <CheckBox
+                android:id="@+id/sleep"
+                android:layout_width="wrap_content"
+                android:text="睡觉" />
+        </TableRow>
+
+        <TableRow android:id="@+id/row4" >
+
+            <TextView
+                android:id="@+id/marry"
+                android:text="婚否" />
+
+            <ToggleButton
+                android:id="@+id/m"
+                android:layout_width="wrap_content"
+                android:text="toggle" />
+        </TableRow>
+
+        <TableRow android:id="@+id/row5" >
+
+            <TextView
+                android:id="@+id/p"
+                android:text="职务" />
+
+            <Spinner
+                android:id="@+id/po"
+               />
+        </TableRow>
+
+        <TableRow android:id="@+id/row6" >
+
+            <Button
+                android:id="@+id/OK"
+                android:layout_width="wrap_content"
+                android:text="确定" />
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:text="清除" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

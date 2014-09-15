@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小呆</string>
+    <string name="action_settings">Settings</string>
+    <string name="text1">textvalue1</string>
+    <string name="text2">textvalue2</string>
+
+</resources>
