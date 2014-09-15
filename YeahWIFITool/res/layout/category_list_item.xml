@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_category_bg_color"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/main_category_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@id/item_cg_food"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_food_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/food" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="美食"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1.0px"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/cg_food_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/cg_food_icon"
+                android:background="@color/main_category_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/item_cg_movie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_movie_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/movie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="电影"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1.0px"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/cg_movie_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/cg_movie_icon"
+                android:background="@color/main_category_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/item_cg_entertainment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_entertainment_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/entertainment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="休闲娱乐"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1.0px"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/cg_entertainment_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/cg_entertainment_icon"
+                android:background="@color/main_category_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/item_cg_life_service"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_life_service_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/service" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="生活服务"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/main_category_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@id/item_cg_hotel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_hotel_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hotel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="酒店"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1.0px"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/cg_hotel_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/cg_hotel_icon"
+                android:background="@color/main_category_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/item_cg_travel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_travel_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/travel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="旅行"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1.0px"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/cg_travel_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/cg_travel_icon"
+                android:background="@color/main_category_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/item_cg_commodity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_commodity_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/commodity" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="商品"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1.0px"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/cg_commodity_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/cg_commodity_icon"
+                android:background="@color/main_category_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/item_cg_all"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@id/cg_life_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_cg_margin_vertical"
+                android:paddingTop="@dimen/item_cg_margin_vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/all" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin_inside"
+                    android:text="全部分类"
+                    android:textColor="@color/main_category_text_color"
+                    android:textSize="@dimen/order_small_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/main_category_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_category_bar_color"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/content_margin_outside"
+            android:text="精选团购"
+            android:textColor="@color/main_category_text_color"
+            android:textSize="@dimen/order_small_text_size" />
+    </LinearLayout>
+
+</LinearLayout>
