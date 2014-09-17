@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">高朋团购(演示)</string>
+    <!--
     <string name="app_version_name">2.4</string>
     <string name="app_version_code">10027</string>
     <string name="app_platform_id">12</string>
@@ -554,5 +556,7 @@
     <string name="umeng_xp_dowloadOrNot">Download the app?</string>
     <string name="umeng_xp_failed_loading">Failed loading...</string>
     <string name="umeng_xp_tip_download_pre">Start download</string>
-    <string name="umeng_xp_info_banner_deprecated">Banner style is not supported for current version of SDK, please contact us for support.</string>
+    <string name="umeng_xp_info_banner_deprecated">Banner style is not supported for current version of SDK, please contact us for support.</string>
+    -->
+
 </resources>

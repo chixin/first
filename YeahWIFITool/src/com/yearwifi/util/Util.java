@@ -26,7 +26,7 @@ public class Util {
 	static SharedPreferences pre;
 	static WifiManager wifiManager;
 	static WifiInfo wifiInfo;
-	static String phoneInfo = "";
+	static String phoneInfo;
 	static ConnectivityManager mConnectivityManager;
 	static int notifyTimes;
 

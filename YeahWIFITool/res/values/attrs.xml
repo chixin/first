@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <attr name="cusid" format="string" />
     <attr name="type" format="reference" />
     <attr name="animationDuration" format="integer" />
@@ -227,4 +228,5 @@
     <attr name="fades" format="boolean" />
     <attr name="fadeDelay" format="integer" />
     <attr name="fadeLength" format="integer" />
+
 </resources>

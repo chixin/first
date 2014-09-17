@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="main_category_bg_color">#fff6f6f6</color>
+    <color name="main_category_line">#ffcccccc</color>
+    <color name="main_category_text_color">#ff666666</color>
+    <color name="main_category_bar_color">#ffebeaea</color>
+    <color name="vpi_background_holo_dark">#ff000000</color>
+    <color name="vpi_background_holo_light">#fff3f3f3</color>
+
+    <item name="vpi_bright_foreground_holo_dark" type="color">@color/vpi_background_holo_light</item>
+    <item name="vpi_bright_foreground_holo_light" type="color">@color/vpi_background_holo_dark</item>
+
+    <!--
     <color name="order_black">#ee000000</color>
     <color name="TextV_link_color">#ff0000ff</color>
     <color name="textColorHint">#ffb4b4b4</color>
@@ -7,7 +20,6 @@
     <color name="search_hostory">#ffc6c6c6</color>
     <color name="myGroup_green">#ff75a53d</color>
     <color name="yellow">#fff3a529</color>
-    <color name="white">#ffffffff</color>
     <color name="item_bg">#ffeef1f3</color>
     <color name="mygroup_item_gray">#ff6a6a6a</color>
     <color name="order_submit_gray">#ff666666</color>
@@ -17,16 +29,8 @@
     <color name="category_item_text_color_f">#ff61b202</color>
     <color name="category_text_color">#ff7b7b7b</color>
     <color name="category_text_item_color">#ff606060</color>
-    <color name="main_category_bg_color">#fff6f6f6</color>
-    <color name="main_category_line">#ffcccccc</color>
-    <color name="main_category_text_color">#ff666666</color>
-    <color name="main_category_bar_color">#ffebeaea</color>
     <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
     <color name="umeng_fb_color_btn_normal">#ff333333</color>
-    <color name="vpi_background_holo_dark">#ff000000</color>
-    <color name="vpi_background_holo_light">#fff3f3f3</color>
-    <item type="color" name="vpi_bright_foreground_holo_dark">@color/vpi_background_holo_light</item>
-    <item type="color" name="vpi_bright_foreground_holo_light">@color/vpi_background_holo_dark</item>
     <color name="vpi_bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
     <color name="vpi_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <item type="color" name="vpi_bright_foreground_inverse_holo_dark">@color/vpi_bright_foreground_holo_light</item>
@@ -37,5 +41,7 @@
     <color name="default_circle_indicator_fill_color">#ff83c03f</color>
     <color name="default_circle_indicator_page_color">#55000000</color>
     <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
-    <color name="default_underline_indicator_selected_color">#ff006600</color>
+    <color name="default_underline_indicator_selected_color">#ff006600</color>
+    -->
+
 </resources>
