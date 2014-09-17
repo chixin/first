@@ -1,12 +1,10 @@
 package com.yearwifi.yearwifitool;
 
-import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.Intent;
-import android.content.res.Resources.NotFoundException;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;

@@ -17,7 +17,6 @@ import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Handler;
-import android.os.Message;
 import android.os.PowerManager;
 import android.util.Log;
 
@@ -131,6 +130,7 @@ public class Util {
 	public static void wakeLock(Context context) {
 		final PowerManager pm = (PowerManager) context
 				.getSystemService(Context.POWER_SERVICE);
+		@SuppressWarnings("deprecation")
 		final PowerManager.WakeLock wakeLock = pm.newWakeLock(
 				PowerManager.SCREEN_DIM_WAKE_LOCK
 						| PowerManager.ACQUIRE_CAUSES_WAKEUP, "TAG");
